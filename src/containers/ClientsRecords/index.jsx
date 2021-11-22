@@ -13,7 +13,7 @@ export const ClientsRecords = () => {
 
             <div>
                 {cards.map((card) => (
-                    <article>
+                    <article key={card.title}>
                         <img src={card.image} alt={card.title} />
                         <h3>{card.title}</h3>
                         <p>{card.description}</p>

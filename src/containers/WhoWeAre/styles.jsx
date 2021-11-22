@@ -40,26 +40,12 @@ export const ContentWhoWheAre = styled.div`
     }
 
     article {
-        display: grid;
-        column-gap: 1rem;
-        grid-template-columns: max-content max-content;
-        grid-template-rows: min-content min-content;
-        grid-template-areas:
-            "img title"
-            "img text";
-        justify-content: center;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
 
         img {
-            grid-area: img;
-        }
-
-        h4 {
-            grid-area: title;
-            font-size: 1.25rem;
-        }
-
-        p {
-            grid-area: text;
+            max-width: 2.25rem;
         }
     }
 `;

@@ -17,10 +17,12 @@ export const WhoWeAre = () => {
                 />
                 <main>
                     <VideoContainer>
-                        <img
-                            src="/assets/images/who-we-are-cover.png"
-                            alt="Who we are video"
-                        />
+                        <div>
+                            <img
+                                src="/assets/images/who-we-are-cover.png"
+                                alt="Who we are video"
+                            />
+                        </div>
 
                         <span>
                             <img src="/assets/icons/play-button.svg" alt="" />
@@ -39,8 +41,12 @@ export const WhoWeAre = () => {
                                     src="/assets/icons/people-icon.svg"
                                     alt=""
                                 />
-                                <h4>the quick fox jumps over the lazy dog</h4>
-                                <p>Things on a very small scale ...</p>
+                                <div>
+                                    <h4>
+                                        the quick fox jumps over the lazy dog
+                                    </h4>
+                                    <p>Things on a very small scale ...</p>
+                                </div>
                             </article>
 
                             <article>
@@ -48,8 +54,12 @@ export const WhoWeAre = () => {
                                     src="/assets/icons/speed-icon.svg"
                                     alt=""
                                 />
-                                <h4>the quick fox jumps over the lazy dog</h4>
-                                <p>Things on a very small scale ...</p>
+                                <div>
+                                    <h4>
+                                        the quick fox jumps over the lazy dog
+                                    </h4>
+                                    <p>Things on a very small scale ...</p>
+                                </div>
                             </article>
                         </div>
                     </ContentWhoWheAre>
