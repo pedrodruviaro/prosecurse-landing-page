@@ -3,6 +3,7 @@ import { HeroCards } from "./components/HeroCards";
 import { ClientsRecords } from "./containers/ClientsRecords";
 import { Hero } from "./containers/Hero";
 import { PracticeAdvice } from "./containers/PracticeAdvise";
+import { WhoWeAre } from "./containers/WhoWeAre";
 
 export const App = () => {
     return (
@@ -12,6 +13,7 @@ export const App = () => {
             <HeroCards />
             <ClientsRecords />
             <PracticeAdvice />
+            <WhoWeAre />
         </>
     );
 };
