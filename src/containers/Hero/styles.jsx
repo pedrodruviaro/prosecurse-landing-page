@@ -5,14 +5,21 @@ export const Container = styled(DefaultContainer)`
     display: grid;
     grid-template-columns: 1.5fr 1fr;
 
+    padding-bottom: 12rem;
+
     background-image: url("/assets/images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
+    background-position-x: 70%;
 
-    @media (max-width: 42rem) {
+    @media (max-width: 40rem) {
         grid-template-columns: 1fr;
         background: none;
+    }
+
+    @media (min-width: 70rem) {
+        background-position-x: 100%;
     }
 
     > div {
@@ -36,6 +43,7 @@ export const Container = styled(DefaultContainer)`
         p {
             max-width: 18rem;
             margin-inline: auto;
+            font-weight: 500;
         }
 
         > div {
@@ -47,7 +55,7 @@ export const Container = styled(DefaultContainer)`
             }
         }
 
-        @media (min-width: 42rem) {
+        @media (min-width: 40rem) {
             text-align: left;
 
             p {

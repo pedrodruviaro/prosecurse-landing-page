@@ -15,7 +15,7 @@ export const Hero = () => {
                 </p>
                 <div>
                     <Button primary>Get Quote Now</Button>
-                    <Button>Learn More</Button>
+                    <Button secondary>Learn More</Button>
                 </div>
             </div>
         </Container>

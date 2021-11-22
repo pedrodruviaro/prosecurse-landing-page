@@ -14,6 +14,8 @@ export const Container = styled.button`
 
     border-radius: 24px;
 
+    min-width: fit-content;
+
     &:hover,
     &:focus {
         filter: brightness(0.8);
