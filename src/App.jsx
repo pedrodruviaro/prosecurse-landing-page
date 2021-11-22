@@ -1,13 +1,16 @@
+import { Button } from "./components/Button";
+import { SectionBox } from "./components/SectionBox";
+
 export const App = () => {
     return (
         <>
-            <h1>React App</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-                nemo!
-            </p>
-            <button>Primary</button>
-            <button>Secondary</button>
+            <SectionBox title="React App" description="lorem ipsum dolor" />
+            <Button primary>Primary</Button>
+            <Button secondary>Secondary</Button>
+            <Button gold>Secondary</Button>
+            <Button primary squared>
+                Secondary
+            </Button>
         </>
     );
 };
