@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.header`
-    max-width: 80rem;
+    max-width: 90rem;
+    margin-inline: auto;
     height: 4rem;
     padding-inline: 1.5rem;
 
@@ -10,6 +11,7 @@ export const Container = styled.header`
     justify-content: space-between;
 
     position: relative;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 
     h1 {
         margin-right: 1.5rem;

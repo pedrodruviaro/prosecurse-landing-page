@@ -7,8 +7,6 @@ export const Container = styled.button`
 
     transition: filter 200ms ease;
 
-    margin: 1rem;
-
     border: 1px solid ${(props) => props.theme.brown};
     padding: 0.5rem 2rem;
 
