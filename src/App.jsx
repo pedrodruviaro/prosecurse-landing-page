@@ -8,6 +8,7 @@ import { WhoWeAre } from "./containers/WhoWeAre";
 import { CTA } from "./containers/CTA";
 import { GetInTouch } from "./containers/GetInTouch";
 import { ConsultationCTA } from "./containers/ConsultatioCTA";
+import { Copyright } from "./containers/Copyright";
 
 export const App = () => {
     return (
@@ -22,6 +23,8 @@ export const App = () => {
             <CTA />
             <GetInTouch />
             <ConsultationCTA />
+
+            <Copyright />
         </>
     );
 };
