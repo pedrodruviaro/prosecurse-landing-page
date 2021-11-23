@@ -6,6 +6,7 @@ import { Hero } from "./containers/Hero";
 import { PracticeAdvice } from "./containers/PracticeAdvise";
 import { WhoWeAre } from "./containers/WhoWeAre";
 import { CTA } from "./containers/CTA";
+import { GetInTouch } from "./containers/GetInTouch";
 
 export const App = () => {
     return (
@@ -18,6 +19,7 @@ export const App = () => {
             <WhoWeAre />
             <Brands />
             <CTA />
+            <GetInTouch />
         </>
     );
 };
