@@ -1,5 +1,11 @@
 import styled, { css } from "styled-components";
 
+export const Wrapper = styled.div`
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-color: #fafafa;
+    position: relative;
+`;
+
 export const Container = styled.header`
     max-width: 90rem;
     margin-inline: auto;
@@ -11,7 +17,6 @@ export const Container = styled.header`
     justify-content: space-between;
 
     position: relative;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 
     h1 {
         margin-right: 1.5rem;

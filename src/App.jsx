@@ -7,6 +7,7 @@ import { PracticeAdvice } from "./containers/PracticeAdvise";
 import { WhoWeAre } from "./containers/WhoWeAre";
 import { CTA } from "./containers/CTA";
 import { GetInTouch } from "./containers/GetInTouch";
+import { ConsultationCTA } from "./containers/ConsultatioCTA";
 
 export const App = () => {
     return (
@@ -20,6 +21,7 @@ export const App = () => {
             <Brands />
             <CTA />
             <GetInTouch />
+            <ConsultationCTA />
         </>
     );
 };

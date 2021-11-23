@@ -24,7 +24,7 @@ export const Container = styled(DefaultContainer)`
             }
         }
 
-        @media (min-width: 55rem) {
+        @media (min-width: 60rem) {
             flex-direction: row;
             gap: 0;
         }
