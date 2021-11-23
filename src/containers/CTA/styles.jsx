@@ -6,14 +6,14 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled(DefaultContainer)`
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
     > div {
         display: grid;
         gap: 1.875rem;
         position: relative;
-        margin-top: -5rem;
+        margin-top: -6rem;
 
         background-color: ${(props) => props.theme.blue};
         padding: 1.875rem 3.125rem;

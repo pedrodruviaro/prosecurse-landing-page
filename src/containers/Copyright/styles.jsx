@@ -1,10 +1,11 @@
 import styled from "styled-components";
+import { DefaultContainer } from "../../components/DefaultContainer";
 
 export const Wrapper = styled.div`
     background: #fafafa;
 `;
 
-export const Container = styled.section`
+export const Container = styled(DefaultContainer)`
     display: flex;
     align-items: center;
     justify-content: space-between;

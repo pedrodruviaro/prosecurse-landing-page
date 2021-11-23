@@ -9,6 +9,7 @@ import { CTA } from "./containers/CTA";
 import { GetInTouch } from "./containers/GetInTouch";
 import { ConsultationCTA } from "./containers/ConsultatioCTA";
 import { Copyright } from "./containers/Copyright";
+import { Footer } from "./containers/Footer";
 
 export const App = () => {
     return (
@@ -23,7 +24,7 @@ export const App = () => {
             <CTA />
             <GetInTouch />
             <ConsultationCTA />
-
+            <Footer />
             <Copyright />
         </>
     );
