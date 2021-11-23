@@ -31,7 +31,8 @@ export const Container = styled(DefaultContainer)`
         text-align: center;
 
         h1 {
-            font-size: clamp(2.5rem, 3vw, 3rem);
+            font-size: clamp(3rem, 3vw, 3.6rem);
+            text-transform: uppercase;
             font-weight: 900;
 
             strong {
@@ -41,9 +42,10 @@ export const Container = styled(DefaultContainer)`
         }
 
         p {
-            max-width: 18rem;
+            max-width: 23.5rem;
             margin-inline: auto;
             font-weight: 500;
+            font-size: 1.25rem;
         }
 
         > div {

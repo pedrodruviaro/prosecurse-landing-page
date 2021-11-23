@@ -15,6 +15,14 @@ export const Container = styled(DefaultContainer)`
         @media screen and (min-width: 60rem) {
             grid-template-columns: 1fr 1fr;
         }
+
+        header {
+            text-align: left;
+
+            h2 {
+                max-width: 20rem;
+            }
+        }
     }
 `;
 
